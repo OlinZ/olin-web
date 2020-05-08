@@ -13,7 +13,7 @@ class ExperienceCard extends Component {
   render() {
     return (
       <div className="itemCard">
-        <Fade>
+        <Fade bottom>
           <div className="cardLeft">
             <Image src={mathworks} rounded className="experienceLogo"></Image>
             <h3>MathWorks - EDG Intern</h3>

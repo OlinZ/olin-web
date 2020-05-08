@@ -13,7 +13,7 @@ class ProjectCard extends Component {
   render() {
     return (
       <div className="itemCard">
-        <Fade>
+        <Fade bottom>
           <div className="cardLeft">
             <Image src={discord} rounded className="experienceLogo"></Image>
             <h3>Discord Bot</h3>
