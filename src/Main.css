@@ -1,9 +1,16 @@
 @media only screen and (max-width: 1400px) {
+  /* .outsideSection {
+    background-color: white;
+  }
+
+  .insideSection {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+  } */
   .itemCard {
     margin: 0;
     padding: 0;
-    /* border-style: solid; */
-    /* flex-direction: column; */
   }
 }
 
@@ -31,6 +38,14 @@
     margin-bottom: 20px;
     margin-top: 20px;
   }
+  .item {
+    /* border-style: solid; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    /* justify-content: center; */
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -56,17 +71,19 @@
 }
 
 body {
-  font-family: "Arial";
+  font-family: "tahoma";
   /* background-color: #f8f8f8; */
 }
 
 h1 {
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .experienceLogo {
   height: 150px;
+  margin-bottom: 10px;
+  /* filter: drop-shadow(0 0 3px #d3d3d3); */
   /* border-style: solid; */
 }
 
@@ -98,6 +115,19 @@ h1 {
 
 h1 {
   font-size: 120px;
+  color: #093a3e;
+}
+
+h2 {
+  color: #3aafb9;
+}
+
+h3 {
+  /* color: #001011; */
+}
+
+div {
+  /* color: #001011; */
 }
 
 .center {
@@ -141,6 +171,29 @@ h1 {
   animation-iteration-count: infinite;
 }
 
+.resume {
+  /* position: -webkit-sticky; */
+  /* position: absolute; */
+  /* bottom: 10px; */
+  /* left: 10px; */
+  /* height: 80px; */
+  border-style: solid;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.resumeImage {
+  height: 100%;
+}
+
+.resume:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
 .up:hover {
   cursor: pointer;
   animation-name: bounce;
@@ -157,3 +210,43 @@ h1 {
     transform: translateY(0);
   }
 }
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid; */
+  margin-bottom: 100px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  /* flex: 1 0 10%; */
+  /* border-style: solid; */
+}
+
+.introduction {
+  /* margin-top: 100px; */
+  margin-left: 200px;
+  margin-right: 200px;
+  /* margin-bottom: 100px; */
+  font-size: large;
+}
+
+/* .outsideSection {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(190, 240, 243, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.insideSection {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+} */
