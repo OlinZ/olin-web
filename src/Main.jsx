@@ -8,7 +8,7 @@ import {
   animateScroll as scroll,
   scroller,
 } from "react-scroll";
-import ReactTypingEffect from 'react-typing-effect';
+import ReactTypingEffect from "react-typing-effect";
 
 import Introduction from "./Introduction";
 import EducationCard from "./EducationCard";
@@ -129,7 +129,12 @@ class MainPage extends Component {
 
           <div className="titlePage">
             <div className="center">
-              <ReactTypingEffect className="typing" text="Hi, I'm Olin" typingDelay="1000" />
+              <ReactTypingEffect
+                className="typing"
+                text="Hi, I'm Olin"
+                typingDelay="1000"
+                eraseDelay="5000"
+              />
 
               <div className="contact">
                 <div className="imageContainer">
