@@ -46,6 +46,7 @@
     margin-bottom: 100px;
     /* justify-content: center; */
   }
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -78,6 +79,11 @@ body {
 h1 {
   text-align: center;
   /* font-weight: bold; */
+}
+
+.typing {
+  font-size: 150px;
+  color: #001011;
 }
 
 .experienceLogo {
@@ -119,7 +125,12 @@ h1 {
 }
 
 h2 {
+  font-size: 40px;
   color: #3aafb9;
+}
+
+p {
+  font-size: 18px;
 }
 
 h3 {
@@ -131,6 +142,8 @@ div {
 }
 
 .center {
+  width: 50%;
+  text-align: center;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -250,3 +263,6 @@ div {
   margin-right: 15%;
   background-color: white;
 } */
+
+
+

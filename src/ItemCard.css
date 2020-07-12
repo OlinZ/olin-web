@@ -60,7 +60,7 @@
 }
 
 .verticalLine {
-  border-left: 3px solid #001011;
+  border-left: 2px solid #001011;
   height: 200px;
   border-radius: 100px;
 }
@@ -93,7 +93,7 @@
   text-align: left;
 }
 
-.skillColumn div {
+.skillColumn p {
   /* padding-left: 10px; */
   margin-bottom: 5px;
 }

@@ -21,12 +21,12 @@ class EducationCard extends Component {
               <div className="cardRight">
                 <h3>Texas A&M University</h3>
                 <div className="date">Class of 2021</div>
-                <div>
+                <p>
                   I am currently pursuing a bachelor's degree in computer
                   science along with a minor in business. My involvement with
                   TAMU SASE and VSA has given me limitless opportunities and
                   unforgettable experiences.
-                </div>
+                </p>
                 {/* <div>PRAW API, Discord.py, Python</div> */}
               </div>
             </div>

@@ -33,14 +33,14 @@ class ExperienceCard extends Component {
             <div className="cardRight">
               <h3>Tyson Foods - Full Stack Intern</h3>
               <div className="date">Summer, 2019</div>
-              <div>
+              <p>
                 My first ever internship and door way to software engineering. I
                 worked on a responsive and cloud enabled intake form for the
                 transportation department that tracked truck incidents such as
                 accidents and citations. Not only did I gain insight on web
                 development, I also got to enjoy the natural scenery of
                 Arkansas.
-              </div>
+              </p>
               <div className="languages">
                 <div>React</div>
                 <div>NodeJS</div> <div>AWS Aurora</div> <div>AWS Lambda</div>
@@ -57,12 +57,12 @@ class ExperienceCard extends Component {
             <div className="cardRight">
               <h3>Undergraduate Teaching Fellow</h3>
               <div className="date">Spring, 2019</div>
-              <div>
+              <p>
                 I held recitation sessions for physics students taking Newtonian
                 Mechanics. Here I learned to convey my knowledge to others while
                 working with other UTFs to create both a professional and
                 enjoyable experience for students.
-              </div>
+              </p>
               <div className="languages"></div>
             </div>
           </div>

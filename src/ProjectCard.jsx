@@ -21,12 +21,12 @@ class ProjectCard extends Component {
             <div className="verticalLine"></div>
             <div className="cardRight">
               <h3>Stock Alert</h3>
-              <div>
+              <p>
                 This web application was inspired by a friend who's into stock
                 trading but was too lazy to wake up when market opened. It
                 notifies users either by text or phone call whenever a stock
                 hits a desired price.
-              </div>
+              </p>
               <div className="languages">
                 <div>React</div>
                 <div>NodeJS</div> <div> ExpressJS</div>
@@ -44,13 +44,13 @@ class ProjectCard extends Component {
             <div className="verticalLine"></div>
             <div className="cardRight">
               <h3>Road Conditions</h3>
-              <div>
+              <p>
                 My mom always worries whenever I drive back home or to college
                 due to weather conditions. She checks the weather for every
                 location I drive through at the estimated time I will be there.
                 So I made a web application that maps weather details on a route
                 given a starting and ending location.
-              </div>
+              </p>
               <div className="languages">
                 <div>React</div>
                 <div>NodeJS</div> <div> Google Maps API</div>
@@ -66,13 +66,13 @@ class ProjectCard extends Component {
             <div className="verticalLine"></div>
             <div className="cardRight">
               <h3>Discord Bot</h3>
-              <div>
+              <p>
                 My first personal computer science project. I use this bot in my
                 personal Discord server to provide my friends with a unique and
                 entertaining experience when chatting or playing games. It sends
                 images from reddit or voice messages based on commands given by
                 the users.
-              </div>
+              </p>
               <div className="languages">
                 <div>Python</div>
                 <div>PRAW API</div> <div>Discord.py</div>

@@ -9,35 +9,35 @@ class SkillsCard extends Component {
         <Fade duration={1500}>
           <div className="skillColumn">
             <div className="leftAlign">
-              <h4>Languages</h4>
-              <div>Java</div>
-              <div>JavaScript</div>
-              <div>C++</div>
-              <div>Python</div>
-              <div>MATLAB</div>
-              <div>SQL</div>
-              <div>Bash Script</div>
+              <h3>Languages</h3>
+              <p>Java</p>
+              <p>JavaScript</p>
+              <p>C++</p>
+              <p>Python</p>
+              <p>MATLAB</p>
+              <p>SQL</p>
+              <p>Bash Script</p>
             </div>
           </div>
           <div className="skillColumn">
             <div className="leftAlign">
-              <h4>Web Development</h4>
-              <div>React</div>
-              <div>Node.js</div>
-              <div>Express.js</div>
-              <div>Bootstrap</div>
-              <div>HTML</div>
-              <div>CSS</div>
+              <h3>Web Development</h3>
+              <p>React</p>
+              <p>Node.js</p>
+              <p>Express.js</p>
+              <p>Bootstrap</p>
+              <p>HTML</p>
+              <p>CSS</p>
             </div>
           </div>
           <div className="skillColumn">
             <div className="leftAlign">
-              <h4>Tools</h4>
-              <div>MySQL</div>
-              <div>AWS Lambda</div>
-              <div>AWS API Gateway</div>
-              <div>Unix</div>
-              <div>OpenStack</div>
+              <h3>Tools</h3>
+              <p>MySQL</p>
+              <p>AWS Lambda</p>
+              <p>AWS API Gateway</p>
+              <p>Unix</p>
+              <p>OpenStack</p>
             </div>
           </div>
         </Fade>
