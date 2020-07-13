@@ -11,6 +11,7 @@ class GithubButton extends Component {
           href={this.props.url}
           target="_blank"
           className="githubButton hvr-sweep-to-top"
+          rel="noopener noreferrer"
         >
           GitHub
         </a>
