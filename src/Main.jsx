@@ -82,8 +82,6 @@ class MainPage extends Component {
       <div>
         <div className="bg">
           <Navbar className="navbar" expand="lg" variant="light">
-            {/* <Navbar.Brand href="#">Olin</Navbar.Brand> */}
-
             <Link
               activeClass="active"
               className="navLink"
@@ -173,8 +171,6 @@ class MainPage extends Component {
         </div>
         <Fade duration={1500}>
           <Introduction></Introduction>
-          {/* <div className="outsideSection">
-          <div className="insideSection"> */}
           <Element name="education" className="element">
             <div className="divider">
               <div className="horizontalLine"></div>
@@ -208,24 +204,7 @@ class MainPage extends Component {
             <SkillsCard></SkillsCard>
           </Element>
         </Fade>
-        {/* </div>
-        </div> */}
         <Image src={up} onClick={this.scrollToTop} className="up"></Image>
-        {/* <Fade>
-          <Element name="education" className="element">
-            <Education></Education>
-          </Element>
-          <Element name="experience" className="element">
-            <Experience></Experience>{" "}
-          </Element>
-
-          <Element name="projects" className="element">
-            <Projects></Projects>
-          </Element>
-          <Element name="languages" className="element">
-            <Languages></Languages>
-          </Element>
-        </Fade> */}
       </div>
     );
   }

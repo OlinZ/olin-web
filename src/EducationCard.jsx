@@ -36,7 +36,6 @@ class EducationCard extends Component {
                   helping out the local community. I also enjoy working out and
                   cooking in my free time.
                 </p>
-                {/* <div>PRAW API, Discord.py, Python</div> */}
               </div>
             </div>
           </Fade>

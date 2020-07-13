@@ -9,7 +9,6 @@ class Introduction extends Component {
         <Fade duration={1500}>
           <div className="item">
             <h3 className="cardLeft">Introduction</h3>
-            {/* <div className="verticalLine"></div> */}
             <p className="cardRight">
               <div>
                 Hi, my name is Olin. <br />
