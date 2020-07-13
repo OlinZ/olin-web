@@ -23,9 +23,10 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <h3>Take a Break, Have a Cookie</h3>
               <p>
-                A MathWorks HackDay project. Reminds users using computers to
-                take a break while dimming the screen brightness. Completed with
-                a group of six interns in eight hours.
+                A MathWorks HackDay project. <br />
+                Reminds users using computers to take a break while dimming the
+                screen brightness. Completed with a group of six interns in
+                eight hours.
               </p>
               <div className="languages">
                 <div>C#</div>
