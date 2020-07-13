@@ -35,11 +35,13 @@ class ExperienceCard extends Component {
               <div className="date">Summer, 2019</div>
               <p>
                 At Tyson Foods I worked on developing an intake form to track
-                truck incidents ranging from police warnings to accidents on the
-                road. This was my first time doing any development work and was
-                exposed to frontend, backend, and database design. Not only did
-                I gain wonderful technical experience, I also explored Arkansas'
-                beautiful scenary along with other interns.
+                truck incidents ranging from police warnings to accidents. This
+                allowed me to gain proficiency in{" "}
+                <highlight>front-end</highlight>,{" "}
+                <highlight>back-end</highlight>, and{" "}
+                <highlight>database</highlight> design. Outside of my technical
+                development, I also enjoyed exploring Arkansas’s scenery with
+                the other interns.
               </p>
               <div className="languages">
                 <div>React</div>
@@ -58,12 +60,14 @@ class ExperienceCard extends Component {
               <h3>Undergraduate Teaching Fellow</h3>
               <div className="date">Spring, 2019</div>
               <p>
-                I held recitation sessions for physics students taking Newtonian
-                Mechanics. I created an entertaining environment for students to
-                learn and "enjoy" physics. I held weekly review sessions and
-                exam reviews for those needing additional assistant. Here I
-                learned to express my thoughts and explore problems in unique
-                ways.
+                I was assigned to hold recitation sessions, weekly tutorials,
+                and exam reviews for 24 undergraduate students taking PHYS 206,
+                Newtonian mechanics during the spring semester of 2019. My goals
+                at the time were to help students{" "}
+                <highlight>understand difficult processes</highlight>
+                while also creating an{" "}
+                <highlight>entertaining environment</highlight> and{" "}
+                <highlight>preventing apathy</highlight>.
               </p>
               <div className="languages"></div>
             </div>

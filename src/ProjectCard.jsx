@@ -23,10 +23,13 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <h3>Take a Break, Have a Cookie</h3>
               <p>
-                A MathWorks HackDay project. <br />
-                Reminds users using computers to take a break while dimming the
-                screen brightness. Completed with a group of six interns in
-                eight hours.
+                A MathWorks HackDay project. <br /> <br />
+                Software that periodically reminds computer users to{" "}
+                <highlight>take a break</highlight>. Additional functionality
+                includes <highlight>automatic screen dimming</highlight> and{" "}
+                <highlight>customizability</highlight>. Completed with a group
+                of six interns in eight hours during a corporate-sponsored
+                hackathon.
               </p>
               <div className="languages">
                 <div>C#</div>
@@ -42,12 +45,16 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <h3>Stock Alert</h3>
               <p>
-                A light web application to notify users when a particular stock
-                hits a particular price. Idea inspired by a friend who took
-                interest into stock trading but was too lazy to wake up when
-                market opened. <br />
-                Here I learned to leverage multiple APIs and host the backend
-                server on AWS Lambda.
+                A light web application to <highlight>notify</highlight> users
+                by <highlight>text</highlight> or <highlight>call</highlight>{" "}
+                when a particular stock hits a particular price. Idea inspired
+                by a friend who took interest into stock trading but was too
+                lazy to wake up when market opened. <br />
+                Here I learned to leverage multiple <highlight>
+                  APIs
+                </highlight>{" "}
+                and host the backend server on <highlight>AWS Lambda</highlight>
+                .
               </p>
               <div className="languages">
                 <div>React</div>
@@ -68,11 +75,12 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <h3>Road Conditions</h3>
               <p>
-                A web application to provide a simple way to check weather when
-                planning a road trip. Displays the weather every thirty minutes
-                on the route. <br /> Idea inspired by my mom who worries every
-                time I drive back to school and constantly check the weather to
-                make sure I will be ok.
+                A web application to provide a simple way to{" "}
+                <highlight>check weather when planning a road trip</highlight>.
+                Displays the weather every thirty minutes on the route. <br />{" "}
+                Idea inspired by my mom who worries every time I drive back to
+                school and constantly check the weather to make sure I will be
+                ok.
               </p>
               <div className="languages">
                 <div>React</div>
@@ -92,8 +100,9 @@ class ProjectCard extends Component {
               <p>
                 My first personal computer science project. I use this bot in my
                 personal Discord server to provide my friends with a unique and
-                entertaining experience when chatting or playing games. It sends
-                images from reddit or voice messages based on commands given by
+                entertaining experience when chatting or playing games. It{" "}
+                <highlight>sends images</highlight> from reddit and{" "}
+                <highlight>voice messages</highlight> based on commands given by
                 the users.
               </p>
               <div className="languages">

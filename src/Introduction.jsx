@@ -11,14 +11,27 @@ class Introduction extends Component {
             <h3 className="cardLeft">Introduction</h3>
             {/* <div className="verticalLine"></div> */}
             <p className="cardRight">
-              I am currently a senior computer science major at Texas A&M
-              interested in full stack development and cloud computing. When I'm
-              not in class or chilling at home, you can often find me on the 4th
-              floor of Evans Library grinding out projects or in the Student
-              Recreation Center pumping iron. <br /> <br />
-              My last internships at Tyson Foods and MathWorks focused on web
-              development and testing automation. I am currently looking for
-              2021 full time positions. <br /> <br />
+              <div>
+                Hi, my name is Olin. <br />
+                <br />
+                I’m currently a <highlight>senior</highlight> at Texas A&M,
+                majoring in <highlight>computer science</highlight> and minoring
+                in <highlight>business</highlight>. You can typically find me on
+                the 4th floor of Evans Library grinding on CS projects or
+                working out at the rec center.
+                <br />
+                <br />
+                My previous internships were at{" "}
+                <highlight>Tyson Foods</highlight> and{" "}
+                <highlight>Mathworks</highlight>, where I worked on projects in{" "}
+                <highlight>web development</highlight> and{" "}
+                <highlight>testing automation</highlight>. I am currently
+                looking for <highlight>post-graduation positions</highlight> for
+                the fall of 2021 and am particularly interested in{" "}
+                <highlight>full-stack development</highlight> and{" "}
+                <highlight>cloud computing</highlight>. <br /> <br />
+              </div>
+
               <a
                 href={"https://github.com/OlinZ/resume/blob/master/resume.pdf"}
                 target="_blank"

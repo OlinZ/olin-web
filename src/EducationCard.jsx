@@ -22,10 +22,19 @@ class EducationCard extends Component {
                 <h3>Texas A&M University</h3>
                 <div className="date">Class of 2021</div>
                 <p>
-                  I am currently pursuing a bachelor's degree in computer
-                  science along with a minor in business. My involvement with
-                  TAMU SASE and VSA has given me limitless opportunities and
-                  unforgettable experiences.
+                  I am also involved with the TAMU chapters of{" "}
+                  <highlight>SASE</highlight> (Society of Asian Scientists and
+                  Engineers) as well as <highlight>VSA</highlight> (Vietnamese
+                  Student Association), where I volunteer during{" "}
+                  <a
+                    href="https://bigevent.tamu.edu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    The Big Event
+                  </a>{" "}
+                  helping out the local community. I also enjoy working out and
+                  cooking in my free time.
                 </p>
                 {/* <div>PRAW API, Discord.py, Python</div> */}
               </div>
