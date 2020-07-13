@@ -80,3 +80,8 @@
 .date {
   color: #037971;
 }
+
+.projectName {
+  display: flex;
+  
+}

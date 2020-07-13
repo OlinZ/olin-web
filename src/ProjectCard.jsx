@@ -4,6 +4,8 @@ import Fade from "react-reveal/Fade";
 
 import "./ItemCard.css";
 
+import GithubButton from "./components/GithubButton";
+
 import discord from "./images/discord.png";
 import weather from "./images/weather.png";
 import stock from "./images/stock.png";
@@ -21,7 +23,11 @@ class ProjectCard extends Component {
             </div>
             <div className="verticalLine"></div>
             <div className="cardRight">
-              <h3>Take a Break, Have a Cookie</h3>
+              <div className="projectName">
+                <h3>Take a Break, Have a Cookie</h3>
+                <GithubButton url="https://github.com/jnkarate/HackDay"></GithubButton>
+              </div>
+
               <p>
                 A MathWorks HackDay project. <br /> <br />
                 Software that periodically reminds computer users to{" "}
