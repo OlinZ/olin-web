@@ -10,6 +10,7 @@ import discord from "./images/discord.png";
 import weather from "./images/weather.png";
 import stock from "./images/stock.png";
 import cookie from "./images/cookie.png";
+import book from "./images/book.png";
 
 class ProjectCard extends Component {
   state = {};
@@ -25,11 +26,16 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <div className="projectName">
                 <h3>Take a Break, Have a Cookie</h3>
-                <GithubButton url="https://github.com/jnkarate/HackDay"></GithubButton>
+                <GithubButton
+                  url="https://github.com/jnkarate/HackDay"
+                  private={true}
+                ></GithubButton>
               </div>
 
               <p>
-                A MathWorks HackDay project. <br /> <br />
+                <div className="projectType">MathWorks HackDay Project</div>
+                <br />
+                <br />
                 Software that periodically reminds computer users to{" "}
                 <highlight>take a break</highlight>. Additional functionality
                 includes <highlight>automatic screen dimming</highlight> and{" "}
@@ -51,11 +57,16 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <h3>Stock Alert</h3>
               <p>
-                A light web application to <highlight>notify</highlight> users
-                by <highlight>text</highlight> or <highlight>call</highlight>{" "}
-                when a particular stock hits a particular price. Idea inspired
-                by a friend who took interest into stock trading but was too
-                lazy to wake up when market opened. <br />
+                <div className="projectType">Personal Project</div>
+                <br />
+                <br />A light web application to <highlight>
+                  notify
+                </highlight>{" "}
+                users by <highlight>text</highlight> or{" "}
+                <highlight>call</highlight> when a particular stock hits a
+                particular price. Idea inspired by a friend who took interest
+                into stock trading but was too lazy to wake up when market
+                opened. <br />
                 Here I learned to leverage multiple <highlight>
                   APIs
                 </highlight>{" "}
@@ -75,13 +86,46 @@ class ProjectCard extends Component {
 
           <div className="item">
             <div className="cardLeft">
+              <Image src={book} rounded className="experienceLogo"></Image>
+            </div>
+            <div className="verticalLine"></div>
+            <div className="cardRight">
+              <div className="projectName">
+                <h3>Ketabcheh</h3>
+                <GithubButton
+                  url="https://github.tamu.edu/mgorjian/Project4"
+                  private={false}
+                ></GithubButton>
+              </div>
+              <p>
+                <div className="projectType">School Project</div>
+                <br />
+                <br />A web application to ease the process of buying books by{" "}
+                <highlight>comparing prices</highlight> and{" "}
+                <highlight>showing reviews</highlight> from different sources.
+                Utilized Google Books API, Goodreads API, and BooksRun API to
+                fetch details on different books. Worked with a group of three
+                in an <highlight>agile</highlight> environment.
+              </p>
+              <div className="languages">
+                <div>Python</div> <div>Django</div>
+                <div>HTML</div> <div> Google Books API</div>
+                <div>Goodreads API</div> <div>BooksRun API</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="item">
+            <div className="cardLeft">
               <Image src={weather} rounded className="experienceLogo"></Image>
             </div>
             <div className="verticalLine"></div>
             <div className="cardRight">
               <h3>Road Conditions</h3>
               <p>
-                A web application to provide a simple way to{" "}
+                <div className="projectType">Personal Project</div>
+                <br />
+                <br />A web application to provide a simple way to{" "}
                 <highlight>check weather when planning a road trip</highlight>.
                 Displays the weather every thirty minutes on the route. <br />{" "}
                 Idea inspired by my mom who worries every time I drive back to
@@ -104,6 +148,9 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <h3>Discord Bot</h3>
               <p>
+                <div className="projectType">Personal Project</div>
+                <br />
+                <br />
                 My first personal computer science project. I use this bot in my
                 personal Discord server to provide my friends with a unique and
                 entertaining experience when chatting or playing games. It{" "}

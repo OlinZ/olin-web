@@ -11,7 +11,7 @@ class Introduction extends Component {
             <h3 className="cardLeft">Introduction</h3>
             <p className="cardRight">
               <div>
-                Hi, my name is Olin. <br />
+                Hi, my name is Olin Zhou. <br />
                 <br />
                 I’m currently a <highlight>senior</highlight> at Texas A&M,
                 majoring in <highlight>computer science</highlight> and minoring

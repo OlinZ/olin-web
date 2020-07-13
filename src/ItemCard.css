@@ -83,5 +83,9 @@
 
 .projectName {
   display: flex;
-  
+}
+.projectType {
+  display: inline;
+  font-style: italic;
+  color: #6f42c1;
 }

@@ -15,6 +15,7 @@ class GithubButton extends Component {
         >
           GitHub
         </a>
+        {this.props.private ? <div className="tiny">private</div> : <div />}
       </div>
     );
   }
