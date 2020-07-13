@@ -64,9 +64,8 @@ class ExperienceCard extends Component {
                 and exam reviews for 24 undergraduate students taking PHYS 206,
                 Newtonian mechanics during the spring semester of 2019. My goals
                 at the time were to help students{" "}
-                <highlight>understand difficult processes</highlight>
-                while also creating an{" "}
-                <highlight>entertaining environment</highlight> and{" "}
+                <highlight>understand difficult processes</highlight> while also
+                creating an <highlight>entertaining environment</highlight> and{" "}
                 <highlight>preventing apathy</highlight>.
               </p>
               <div className="languages"></div>
