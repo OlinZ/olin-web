@@ -83,6 +83,7 @@
 
 .projectName {
   display: flex;
+  flex-wrap: wrap;
 }
 .projectType {
   display: inline;
