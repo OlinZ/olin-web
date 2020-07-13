@@ -34,12 +34,12 @@ class ExperienceCard extends Component {
               <h3>Tyson Foods - Full Stack Intern</h3>
               <div className="date">Summer, 2019</div>
               <p>
-                My first ever internship and door way to software engineering. I
-                worked on a responsive and cloud enabled intake form for the
-                transportation department that tracked truck incidents such as
-                accidents and citations. Not only did I gain insight on web
-                development, I also got to enjoy the natural scenery of
-                Arkansas.
+                At Tyson Foods I worked on developing an intake form to track
+                truck incidents ranging from police warnings to accidents on the
+                road. This was my first time doing any development work and was
+                exposed to frontend, backend, and database design. Not only did
+                I gain wonderful technical experience, I also explored Arkansas'
+                beautiful scenary along with other interns.
               </p>
               <div className="languages">
                 <div>React</div>
@@ -59,9 +59,11 @@ class ExperienceCard extends Component {
               <div className="date">Spring, 2019</div>
               <p>
                 I held recitation sessions for physics students taking Newtonian
-                Mechanics. Here I learned to convey my knowledge to others while
-                working with other UTFs to create both a professional and
-                enjoyable experience for students.
+                Mechanics. I created an entertaining environment for students to
+                learn and "enjoy" physics. I held weekly review sessions and
+                exam reviews for those needing additional assistant. Here I
+                learned to express my thoughts and explore problems in unique
+                ways.
               </p>
               <div className="languages"></div>
             </div>

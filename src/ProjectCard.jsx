@@ -7,6 +7,7 @@ import "./ItemCard.css";
 import discord from "./images/discord.png";
 import weather from "./images/weather.png";
 import stock from "./images/stock.png";
+import cookie from "./images/cookie.png";
 
 class ProjectCard extends Component {
   state = {};
@@ -16,16 +17,36 @@ class ProjectCard extends Component {
         <Fade duration={1500}>
           <div className="item">
             <div className="cardLeft">
+              <Image src={cookie} rounded className="experienceLogo"></Image>
+            </div>
+            <div className="verticalLine"></div>
+            <div className="cardRight">
+              <h3>Take a Break, Have a Cookie</h3>
+              <p>
+                A MathWorks HackDay project. Reminds users using computers to
+                take a break while dimming the screen brightness. Completed with
+                a group of six interns in eight hours.
+              </p>
+              <div className="languages">
+                <div>C#</div>
+                <div>.NET Framework</div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            <div className="cardLeft">
               <Image src={stock} rounded className="experienceLogo"></Image>
             </div>
             <div className="verticalLine"></div>
             <div className="cardRight">
               <h3>Stock Alert</h3>
               <p>
-                This web application was inspired by a friend who's into stock
-                trading but was too lazy to wake up when market opened. It
-                notifies users either by text or phone call whenever a stock
-                hits a desired price.
+                A light web application to notify users when a particular stock
+                hits a particular price. Idea inspired by a friend who took
+                interest into stock trading but was too lazy to wake up when
+                market opened. <br />
+                Here I learned to leverage multiple APIs and host the backend
+                server on AWS Lambda.
               </p>
               <div className="languages">
                 <div>React</div>
@@ -33,6 +54,7 @@ class ProjectCard extends Component {
                 <div>Serverless</div>
                 <div>AWS Lambda</div>
                 <div>Twilio API</div>
+                <div>Finnhub API</div>
               </div>
             </div>
           </div>
@@ -45,11 +67,11 @@ class ProjectCard extends Component {
             <div className="cardRight">
               <h3>Road Conditions</h3>
               <p>
-                My mom always worries whenever I drive back home or to college
-                due to weather conditions. She checks the weather for every
-                location I drive through at the estimated time I will be there.
-                So I made a web application that maps weather details on a route
-                given a starting and ending location.
+                A web application to provide a simple way to check weather when
+                planning a road trip. Displays the weather every thirty minutes
+                on the route. <br /> Idea inspired by my mom who worries every
+                time I drive back to school and constantly check the weather to
+                make sure I will be ok.
               </p>
               <div className="languages">
                 <div>React</div>

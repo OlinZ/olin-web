@@ -9,6 +9,7 @@ import {
   scroller,
 } from "react-scroll";
 import ReactTypingEffect from "react-typing-effect";
+import Fade from "react-reveal/Fade";
 
 import Introduction from "./Introduction";
 import EducationCard from "./EducationCard";
@@ -20,8 +21,6 @@ import linkedin from "./images/linkedin.png";
 import github from "./images/github.png";
 import email from "./images/email.png";
 import up from "./images/up.png";
-import resume from "./images/resume.png";
-import resumePDF from "./files/resume.pdf";
 
 import "./Main.css";
 
@@ -101,7 +100,7 @@ class MainPage extends Component {
               to="experience"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={800}
             >
               Experiences
             </Link>
@@ -121,7 +120,7 @@ class MainPage extends Component {
               to="skills"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >
               Skills
             </Link>
@@ -172,55 +171,46 @@ class MainPage extends Component {
             </div>
           </div>
         </div>
-
-        <Introduction></Introduction>
-        <a
-          href={resumePDF}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume"
-        >
-          <Image src={resume} className="resumeImage"></Image>
-        </a>
-
-        {/* <div className="outsideSection">
+        <Fade duration={1500}>
+          <Introduction></Introduction>
+          {/* <div className="outsideSection">
           <div className="insideSection"> */}
-        <Element name="education" className="element">
-          <div className="divider">
-            <div className="horizontalLine"></div>
-            <h2 className="title">Education</h2>
-            <div className="horizontalLine"></div>
-          </div>
-          <EducationCard></EducationCard>
-        </Element>
-        <Element name="experience" className="element">
-          <div className="divider">
-            <div className="horizontalLine"></div>
-            <h2 className="title">Experiences</h2>
-            <div className="horizontalLine"></div>
-          </div>
-          <ExperienceCard></ExperienceCard>
-        </Element>
-        <Element name="projects" className="element">
-          <div className="divider">
-            <div className="horizontalLine"></div>
-            <h2 className="title">Projects</h2>
-            <div className="horizontalLine"></div>
-          </div>
-          <ProjectCard></ProjectCard>
-        </Element>
-        <Element name="skills" className="element">
-          <div className="divider">
-            <div className="horizontalLine"></div>
-            <h2 className="title">Skills</h2>
-            <div className="horizontalLine"></div>
-          </div>
-          <SkillsCard></SkillsCard>
-        </Element>
+          <Element name="education" className="element">
+            <div className="divider">
+              <div className="horizontalLine"></div>
+              <h2 className="title">Education</h2>
+              <div className="horizontalLine"></div>
+            </div>
+            <EducationCard></EducationCard>
+          </Element>
+          <Element name="experience" className="element">
+            <div className="divider">
+              <div className="horizontalLine"></div>
+              <h2 className="title">Experiences</h2>
+              <div className="horizontalLine"></div>
+            </div>
+            <ExperienceCard></ExperienceCard>
+          </Element>
+          <Element name="projects" className="element">
+            <div className="divider">
+              <div className="horizontalLine"></div>
+              <h2 className="title">Projects</h2>
+              <div className="horizontalLine"></div>
+            </div>
+            <ProjectCard></ProjectCard>
+          </Element>
+          <Element name="skills" className="element">
+            <div className="divider">
+              <div className="horizontalLine"></div>
+              <h2 className="title">Skills</h2>
+              <div className="horizontalLine"></div>
+            </div>
+            <SkillsCard></SkillsCard>
+          </Element>
+        </Fade>
         {/* </div>
         </div> */}
         <Image src={up} onClick={this.scrollToTop} className="up"></Image>
-
         {/* <Fade>
           <Element name="education" className="element">
             <Education></Education>
