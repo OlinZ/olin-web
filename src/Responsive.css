@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1500px) {
+  .itemCard {
+    margin: 0;
+    padding: 0;
+  }
+  .center {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .typing {
+    font-size: 50px;
+  }
+  .itemCard {
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-direction: column;
+  }
+  .cardLeft {
+    margin-bottom: 0;
+  }
+  .cardRight {
+    margin-bottom: 0;
+  }
+  .verticalLine {
+    display: none;
+  }
+  .horizontalLine {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .itemCard {
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .cardLeft {
+    margin-bottom: 0;
+  }
+  .cardRight {
+    margin-bottom: 0;
+  }
+  .verticalLine {
+    display: none;
+  }
+  .skillPage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skillColumn {
+    margin-bottom: 40px;
+  }
+  .leftAlign {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* TITLE PAGE ------------------------------------------------------------------- */
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+  }
+  .center {
+    width: 100%;
+  }
+  .contact {
+    display: none;
+  }
+
+  .divider {
+    margin-bottom: 0;
+  }
+  .up {
+    display: none;
+  }
+  /* ITEM CARD -------------------------------------------------------------------- */
+  .date {
+    margin-bottom: 50px;
+  }
+  .introduction {
+    margin-bottom: 50px;
+  }
+  .skillPage {
+    border-top: solid;
+    border-color: #c0c0c0;
+    /* border-style: solid; */
+    /* border-radius: 10px; */
+    border-width: 1px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+  }
+  .skillColumn {
+  }
+  .item {
+    border-top: solid;
+    border-color: #c0c0c0;
+    /* border-style: solid; */
+    /* border-radius: 10px; */
+    border-width: 1px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+  }
+  .horizontalLine {
+    display: none;
+  }
+
+  .title {
+    display: none;
+  }
+  /* PROJECT CARD ----------------------------------------------------------------- */
+  .projectName {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .githubButton {
+    margin-left: 0;
+  }
+}

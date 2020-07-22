@@ -23,6 +23,7 @@ import email from "./images/email.png";
 import up from "./images/up.png";
 
 import "./Main.css";
+import "./Responsive.css";
 
 class MainPage extends Component {
   state = {};
@@ -132,7 +133,6 @@ class MainPage extends Component {
                 typingDelay="1000"
                 eraseDelay="5000"
               />
-
               <div className="contact">
                 <div className="imageContainer">
                   <a
