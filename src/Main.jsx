@@ -21,16 +21,25 @@ import linkedin from "./images/linkedin.png";
 import github from "./images/github.png";
 import email from "./images/email.png";
 import up from "./images/up.png";
+import gnome from "./images/gnome.png";
 
 import "./Main.css";
 import "./Responsive.css";
 
 class MainPage extends Component {
-  state = {};
+  state = {
+    gnomeSound: new Audio(
+      "https://www.myinstants.com/media/sounds/im-a-gnome-meme-sound-effect-woo.mp3"
+    ),
+  };
   constructor(props) {
     super(props);
     this.scrollToTop = this.scrollToTop.bind(this);
   }
+
+  gnomed = (event) => {
+    this.state.gnomeSound.play();
+  };
 
   componentDidMount() {
     Events.scrollEvent.register("begin", function () {
@@ -205,6 +214,12 @@ class MainPage extends Component {
           </Element>
         </Fade>
         <Image src={up} onClick={this.scrollToTop} className="up"></Image>
+        <img
+          alt="gnomed"
+          className="gnome"
+          onClick={this.gnomed}
+          src={gnome}
+        ></img>
       </div>
     );
   }

@@ -140,3 +140,13 @@ highlight {
   color: #7494ea;
   font-weight: bold;
 }
+
+.gnome {
+  /* display: none; */
+  /* position: fixed; */
+  /* top: 0px; */
+  /* right: 0px; */
+
+  height: 0.5%;
+  width: 0.5%;
+}
