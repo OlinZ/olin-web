@@ -21,8 +21,25 @@ class ExperienceCard extends Component {
             <div className="verticalLine"></div>
             <div className="cardRight">
               <h3>MathWorks - EDG Intern</h3>
-              <div className="date">Incoming, Summer 2020</div>
-              <div className="languages"></div>
+              <div className="date">Summer, 2020</div>
+              <p>
+                At the MathWorks I worked on <highlight>web tools</highlight> to
+                help Platform QEs analyze tests. These tools{" "}
+                <highlight>filter and display test jobs</highlight> which gave
+                everyone an easy way to view tests and job failures.
+                <br />I also wrote scripts to create and delete{" "}
+                <highlight>OpenStack</highlight> instances that host{" "}
+                <highlight>MATLAB Docker containers</highlight>.
+              </p>
+
+              <div className="languages">
+                <div>React</div>
+                <div>Java</div>
+                <div>SQL</div>
+                <div>Bash</div>
+                <div>OpenStack</div>
+                <div>Docker</div>
+              </div>
             </div>
           </div>
           <div className="item">
