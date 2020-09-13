@@ -28,7 +28,7 @@ class Introduction extends Component {
                 looking for <highlight>post-graduation positions</highlight> for
                 the fall of 2021 and am particularly interested in{" "}
                 <highlight>full-stack development</highlight> and{" "}
-                <highlight>cloud computing</highlight>. <br /> <br />
+                <highlight>data analytics</highlight>. <br /> <br />
               </div>
 
               <a
