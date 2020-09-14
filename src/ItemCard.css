@@ -41,6 +41,11 @@
   /* background: rebeccapurple; */
 }
 
+.item-label {
+  vertical-align: middle;
+  border-style: solid;
+}
+
 .last-card {
   margin-bottom: 0;
 }
@@ -52,7 +57,7 @@
 }
 
 .languages div {
-  color: #97c8eb;
+  color: #72baee;
   margin: 3px;
   padding: 0px 4px 0px 4px;
   border-style: solid;

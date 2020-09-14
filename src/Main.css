@@ -14,8 +14,13 @@ h1 {
 }
 
 .experienceLogo {
-  height: 30px;
-  float: left;
+  /* height: 30px; */
+  height: 35px;
+  /* float: left; */
+  /* border-style: solid; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
   /* margin-bottom: 10px; */
 }
 
@@ -161,6 +166,9 @@ highlight {
   padding-top: 50px;
 }
 
-/* h3 {
-  font-size: px;
-} */
+h3 {
+  /* height: 100%; */
+  display: inline-block;
+  vertical-align: middle;
+  /* border-style: solid; */
+}

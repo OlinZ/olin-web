@@ -6,7 +6,7 @@ import "./ItemCard.css";
 
 import mathworks from "./images/mathworks.png";
 import tyson from "./images/tyson.png";
-import physics from "./images/tamuPhysics.png";
+import physics from "./images/tamu.png";
 
 class ExperienceCard extends Component {
   state = {};
@@ -23,7 +23,17 @@ class ExperienceCard extends Component {
             </div> */}
 
               <div className="cardRight">
-                <h3>MathWorks - EDG Intern</h3>
+                {/* <div className="item-label"> */}
+                <h3>
+                  <Image
+                    src={mathworks}
+                    rounded
+                    className="experienceLogo"
+                  ></Image>
+                  MathWorks - EDG Intern
+                </h3>
+                {/* </div> */}
+
                 <div className="date">Summer, 2020</div>
                 <p>
                   At the MathWorks I worked on <highlight>web tools</highlight>{" "}
@@ -34,7 +44,6 @@ class ExperienceCard extends Component {
                   <highlight>OpenStack</highlight> instances that host{" "}
                   <highlight>MATLAB Docker containers</highlight>.
                 </p>
-
                 <div className="languages">
                   <div>React</div>
                   <div>Java</div>
@@ -52,7 +61,10 @@ class ExperienceCard extends Component {
             </div> */}
               {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
-                <h3>Tyson Foods - Full Stack Intern</h3>
+                <h3>
+                  <Image src={tyson} rounded className="experienceLogo"></Image>
+                  Tyson Foods - Full Stack Intern
+                </h3>
                 <div className="date">Summer, 2019</div>
                 <p>
                   At Tyson Foods I worked on developing an intake form to track
@@ -75,11 +87,17 @@ class ExperienceCard extends Component {
               {/* <h3 className="cardLeft"></h3> */}
 
               {/* <div className="cardLeft">
-              <Image src={physics} rounded className="experienceLogo"></Image>
             </div> */}
               {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
-                <h3>Undergraduate Teaching Fellow</h3>
+                <h3>
+                  <Image
+                    src={physics}
+                    rounded
+                    className="experienceLogo"
+                  ></Image>
+                  Undergraduate Teaching Fellow
+                </h3>
                 <div className="date">Spring, 2019</div>
                 <p>
                   I was assigned to hold recitation sessions, weekly tutorials,

@@ -28,7 +28,7 @@ class ProjectCard extends Component {
               {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
                 <div className="projectName">
-                  <h3>Take a Break, Have a Cookie</h3>
+                  <h3>🍪 Take a Break, Have a Cookie</h3>
                   <GithubButton
                     url="https://github.com/jnkarate/HackDay"
                     private={true}
@@ -55,7 +55,7 @@ class ProjectCard extends Component {
             <div className="item">
               {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
-                <h3>Stock Alert</h3>
+                <h3>📈 Stock Alert</h3>
                 <p>
                   <div className="projectType">Personal Project</div>
                   {/* <br /> */}
@@ -86,7 +86,7 @@ class ProjectCard extends Component {
               {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
                 <div className="projectName">
-                  <h3>Ketabcheh</h3>
+                  <h3>📖 Ketabcheh</h3>
                   <GithubButton
                     url="https://github.tamu.edu/mgorjian/Project4"
                     private={false}
@@ -113,7 +113,7 @@ class ProjectCard extends Component {
             <div className="item">
               {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
-                <h3>Road Conditions</h3>
+                <h3>🌧️ Road Conditions</h3>
                 <p>
                   <div className="projectType">Personal Project</div>
                   {/* <br /> */}
@@ -135,7 +135,7 @@ class ProjectCard extends Component {
             <div className="item last-card">
               {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
-                <h3>Discord Bot</h3>
+                <h3>💬 Discord Bot</h3>
                 <p>
                   <div className="projectType">Personal Project</div>
                   <br />
