@@ -14,8 +14,9 @@ h1 {
 }
 
 .experienceLogo {
-  height: 150px;
-  margin-bottom: 10px;
+  height: 30px;
+  float: left;
+  /* margin-bottom: 10px; */
 }
 
 .contact {
@@ -150,3 +151,16 @@ highlight {
   height: 0.5%;
   width: 0.5%;
 }
+
+.element {
+  /* border-style: solid; */
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  padding-top: 50px;
+}
+
+/* h3 {
+  font-size: px;
+} */

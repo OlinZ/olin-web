@@ -14,10 +14,11 @@ class EducationCard extends Component {
         <div className="itemCard">
           <Fade duration={1500}>
             <div className="item">
-              <div className="cardLeft">
-                <Image src={tamu} rounded className="experienceLogo"></Image>
-              </div>
-              <div className="verticalLine"></div>
+              {/* <div className="cardLeft"> */}
+              {/* <Image src={tamu} rounded className="experienceLogo"></Image> */}
+              <h3 className="cardLeft">Education</h3>
+              {/* </div> */}
+              {/* <div className="verticalLine"></div> */}
               <div className="cardRight">
                 <h3>Texas A&M University</h3>
                 <div className="date">Class of 2021</div>

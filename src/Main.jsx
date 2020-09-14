@@ -100,7 +100,7 @@ class MainPage extends Component {
               smooth={true}
               duration={500}
             >
-              Education
+              Introduction
             </Link>
             <Link
               activeClass="active"
@@ -179,37 +179,32 @@ class MainPage extends Component {
           </div>
         </div>
         <Fade duration={1500}>
-          <Introduction></Introduction>
           <Element name="education" className="element">
-            <div className="divider">
-              <div className="horizontalLine"></div>
-              <h2 className="title">Education</h2>
-              <div className="horizontalLine"></div>
-            </div>
-            <EducationCard></EducationCard>
+            {/* <EducationCard></EducationCard> */}
+            <Introduction></Introduction>
           </Element>
           <Element name="experience" className="element">
-            <div className="divider">
+            {/* <div className="divider">
               <div className="horizontalLine"></div>
               <h2 className="title">Experiences</h2>
               <div className="horizontalLine"></div>
-            </div>
+            </div> */}
             <ExperienceCard></ExperienceCard>
           </Element>
           <Element name="projects" className="element">
-            <div className="divider">
+            {/* <div className="divider">
               <div className="horizontalLine"></div>
               <h2 className="title">Projects</h2>
               <div className="horizontalLine"></div>
-            </div>
+            </div> */}
             <ProjectCard></ProjectCard>
           </Element>
           <Element name="skills" className="element">
-            <div className="divider">
+            {/* <div className="divider">
               <div className="horizontalLine"></div>
               <h2 className="title">Skills</h2>
               <div className="horizontalLine"></div>
-            </div>
+            </div> */}
             <SkillsCard></SkillsCard>
           </Element>
         </Fade>
