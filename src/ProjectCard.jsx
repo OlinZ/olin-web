@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 
 import "./ItemCard.css";
 
@@ -20,7 +21,7 @@ class ProjectCard extends Component {
         <h3 className="cardLeft">Projects</h3>
         {/* <div className="verticalLine" style={{ borderColor: "#c5abf4" }}></div> */}
         <div className="itemCard">
-          <Fade duration={1500}>
+          <Slide bottom>
             <div className="item">
               {/* <div className="cardLeft"> */}
               {/* <Image src={cookie} rounded className="experienceLogo"></Image> */}
@@ -153,7 +154,7 @@ class ProjectCard extends Component {
                 </div>
               </div>
             </div>
-          </Fade>
+          </Slide>
         </div>
       </div>
     );

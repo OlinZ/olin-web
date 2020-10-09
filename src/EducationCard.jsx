@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 
 import "./ItemCard.css";
 
@@ -12,7 +13,7 @@ class EducationCard extends Component {
     return (
       <div>
         <div className="itemCard">
-          <Fade duration={1500}>
+          <Slide bottom>
             <div className="item">
               {/* <div className="cardLeft"> */}
               {/* <Image src={tamu} rounded className="experienceLogo"></Image> */}
@@ -39,7 +40,7 @@ class EducationCard extends Component {
                 </p>
               </div>
             </div>
-          </Fade>
+          </Slide>
         </div>
       </div>
     );

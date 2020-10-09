@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 
 import "./ItemCard.css";
 
@@ -16,7 +17,7 @@ class ExperienceCard extends Component {
         <h3 className="cardLeft">Experiences</h3>
         {/* <div className="verticalLine"></div> */}
         <div className="itemCard">
-          <Fade duration={1500}>
+          <Slide bottom>
             <div className="item">
               {/* <div className="cardLeft">
               <Image src={mathworks} rounded className="experienceLogo"></Image>
@@ -112,7 +113,7 @@ class ExperienceCard extends Component {
                 <div className="languages"></div>
               </div>
             </div>
-          </Fade>
+          </Slide>
         </div>
       </div>
     );

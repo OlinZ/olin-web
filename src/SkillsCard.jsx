@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 
 class SkillsCard extends Component {
   state = {};
@@ -8,7 +9,7 @@ class SkillsCard extends Component {
       <div className="section">
         <h3 className="cardLeft">Skills</h3>
         <div className="skillPage">
-          <Fade duration={1500}>
+          <Slide bottom>
             <div className="skillColumn">
               <div className="leftAlign">
                 <h3>Languages</h3>
@@ -42,7 +43,7 @@ class SkillsCard extends Component {
                 <p>OpenStack</p>
               </div>
             </div>
-          </Fade>
+          </Slide>
         </div>
       </div>
     );
